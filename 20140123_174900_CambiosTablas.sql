@@ -1,6 +1,22 @@
 --------------------------------------------------------
 -- Archivo creado  - viernes-enero-17-2014   
 --------------------------------------------------------
+
+  DROP TABLE "MINIERP"."FORMASDEPAGO" cascade constraints;
+  DROP TABLE "MINIERP"."CAJA_PROCEDENCIADESTINO" cascade constraints;
+  DROP TABLE "MINIERP"."PEDIDOSARTICULOS" cascade constraints;
+  DROP TABLE "MINIERP"."CAJA_APUNTES" cascade constraints;
+  DROP TABLE "MINIERP"."CLIENTES" cascade constraints;
+  DROP TABLE "MINIERP"."RELACIONARTICULOS" cascade constraints;
+  DROP TABLE "MINIERP"."CAMBIOS" cascade constraints;
+  DROP TABLE "MINIERP"."ARTICULOS" cascade constraints;
+  DROP TABLE "MINIERP"."CAJA_COBRODEUDAS" cascade constraints;
+  DROP TABLE "MINIERP"."CAJA_TIPOSPAGO" cascade constraints;
+  DROP TABLE "MINIERP"."PEDIDOS" cascade constraints;
+  DROP TABLE "MINIERP"."PROVEEDORES" cascade constraints;
+  DROP TABLE "MINIERP"."TIPOS" cascade constraints;
+  DROP TABLE "MINIERP"."USUARIOS" cascade constraints;
+
 --------------------------------------------------------
 --  DDL for Table FORMASDEPAGO
 --------------------------------------------------------
@@ -471,13 +487,13 @@ Insert into MINIERP.FORMASDEPAGO (IDFORMAPAGO,FORMAPAGO,ACTIVO,DESCRIPCION) valu
 REM INSERTING into MINIERP.CAJA_PROCEDENCIADESTINO
 SET DEFINE OFF;
 Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('1','Venta de productos','0');
-Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('2','Ingreso directo de administración','0');
-Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('3','Variación de saldo','0');
+Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('2','Ingreso directo de administraciï¿½n','0');
+Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('3','Variaciï¿½n de saldo','0');
 Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('4','Varios','0');
 Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('5','Gastos de personal','1');
 Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('6','Compra de materias primas','1');
-Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('7','Retirada de dinero de administración','1');
-Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('8','Variación de saldo','1');
+Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('7','Retirada de dinero de administraciï¿½n','1');
+Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('8','Variaciï¿½n de saldo','1');
 Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('9','Varios','1');
 Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('10','Agencia','2');
 Insert into MINIERP.CAJA_PROCEDENCIADESTINO (ID,DESCRIPCION,TIPO) values ('11','Varios','2');
